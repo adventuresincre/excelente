@@ -21,6 +21,9 @@
 </head>
 
 <body class="ms-font-m ms-welcome ms-Fabric">
+    <div class="ms-font-l" style="padding: 10px; text-align: center; background-color: #f3f2f1; border-bottom: 1px solid #edebe9;">
+        Excelente Add-in loaded successfully.
+    </div>
     <header class="ms-welcome__header ms-bgColor-neutralLighter">
         <img width="90" height="90" src="../../assets/logo-filled.png" alt="Contoso" title="Contoso" />
         <h1 class="ms-font-su">Welcome</h1>
@@ -48,7 +51,11 @@
         <div role="button" id="run" class="ms-welcome__action ms-Button ms-Button--hero ms-font-xl">
             <span class="ms-Button-label">Run</span>
         </div>
+        <div role="button" id="get-active-sheet-name" class="ms-welcome__action ms-Button ms-Button--hero ms-font-xl" style="margin-top: 8px;">
+            <span class="ms-Button-label">Active sheet name</span>
+        </div>
         <p><label id="item-subject"></label></p>
+        <p><label id="active-sheet-name"></label></p>
     </main>
 </body>
 
